@@ -1,68 +1,69 @@
 # 🧠 Autonomous AI Business Analyst Agent
 
-🚀 A multi-capability AI agent that performs **business analysis, strategy generation, and data-driven insights** using tool-based execution and multi-LLM support.
+🚀 Live Demo: https://autonomous-ai-business-analyst-agent-tyfqdvduqsnp9oewrkaebp.streamlit.app/
+📂 GitHub: https://github.com/vamsikumarreddy029-bot/Autonomous-AI-Business-Analyst-Agent
 
 ---
 
 ## 🌐 Overview
 
-This project is a **decision-making AI system** — not just a chatbot.
+An **Autonomous AI Agent** that performs **business analysis, strategy generation, and data-driven decision-making**.
 
-Unlike traditional systems:
+Unlike traditional AI systems:
 
-* ❌ RAG → retrieves answers
-* ❌ Chatbot → responds to queries
+* ❌ Chatbots → Just answer
+* ❌ RAG → Retrieve + respond
 
 ✅ This system:
 
-* Analyzes problems
-* Chooses actions
+* Understands the problem
+* Decides what to do
 * Uses tools
-* Generates **insights + strategies**
+* Generates actionable insights
 
 ---
 
-## 🎯 Key Features
+## 🎯 Key Capabilities
 
-### 🧠 Intelligent Task Routing
+### 🧠 Intelligent Task Classification
 
-* Automatically classifies user queries into:
+Automatically detects:
 
-  * General Question
-  * Business Strategy
-  * Data Analysis
+* General queries
+* Business strategy problems
+* Data analysis tasks
 
 ---
 
-### ⚙️ Tool-Based Execution
+### ⚙️ Tool-Based Execution System
 
 * 📊 Data Analysis (Pandas)
-* 📈 Chart Generation (Plotly)
-* 🔮 Forecasting (Machine Learning)
+* 📈 Visualization (Plotly)
+* 🔮 Forecasting (ML - Linear Regression)
 
 ---
 
-### 💡 Insight Generation
+### 💡 Insight Generation Engine
 
-* Produces:
+Provides:
 
-  * Key insights
-  * Root causes
-  * Actionable recommendations
+* Key insights
+* Root causes
+* Actionable recommendations
 
 ---
 
 ### 🤖 Multi-LLM Support
 
 * OpenAI (GPT-4o-mini)
-* Gemini (Google)
-* Claude (Anthropic)
+* Google Gemini (1.5 Flash)
+* Anthropic Claude (Sonnet)
 
 ---
 
 ## 🏗️ Architecture
 
-```text
+```
 User Input
    ↓
 Planner Agent 🧠
@@ -80,7 +81,7 @@ Final Output 🚀
 
 ## 📁 Project Structure
 
-```text
+```
 ai-business-agent/
 │
 ├── app.py
@@ -98,8 +99,6 @@ ai-business-agent/
 │
 ├── utils/
 │   └── llm.py
-│
-└── data/
 ```
 
 ---
@@ -107,15 +106,15 @@ ai-business-agent/
 ## ⚙️ Installation
 
 ```bash
-git clone <your-repo-link>
-cd ai-business-agent
+git clone https://github.com/vamsikumarreddy029-bot/Autonomous-AI-Business-Analyst-Agent
+cd Autonomous-AI-Business-Analyst-Agent
 
 pip install -r requirements.txt
 ```
 
 ---
 
-## ▶️ Run the App
+## ▶️ Run Locally
 
 ```bash
 streamlit run app.py
@@ -123,47 +122,39 @@ streamlit run app.py
 
 ---
 
-## 🔑 API Keys
-
-You can use any of the following:
-
-* OpenAI → https://platform.openai.com/api-keys
-* Gemini → https://makersuite.google.com/app/apikey
-* Claude → https://console.anthropic.com
-
----
-
 ## 💡 Example Use Cases
 
 ### 📊 Data Analysis
 
-> Upload CSV → Ask: “Why did sales drop?”
+Upload CSV → Ask:
 
-→ Generates:
+> “Why did revenue drop?”
 
-* Trends
-* Forecast
-* Insights
+→ Output:
+
+* Trends 📈
+* Forecast 🔮
+* Insights 💡
 
 ---
 
 ### 📈 Business Strategy
 
-> “How to grow my startup?”
+> “How to scale my startup?”
 
-→ Returns:
+→ Output:
 
-* Strategy
-* Steps
+* Growth strategy
+* Step-by-step plan
 * Recommendations
 
 ---
 
-### 💬 General Queries
+### 💬 General AI
 
-> “Explain marketing funnel”
+> “Explain customer churn”
 
-→ Provides structured explanation
+→ Structured explanation
 
 ---
 
@@ -181,24 +172,24 @@ You can use any of the following:
 
 ## 🎯 Interview Pitch
 
-> “I built an autonomous AI agent that performs multi-step reasoning, dynamically routes tasks, integrates tools for data analysis and forecasting, and generates actionable business insights using multi-LLM support.”
+> “I built an autonomous AI agent that performs multi-step reasoning, dynamically routes tasks, integrates analytical tools, and generates actionable business insights using multi-LLM support.”
 
 ---
 
-## 🚀 Future Improvements
+## 🚀 Future Enhancements
 
 * 🧠 Memory (conversation history)
 * 🤖 Multi-agent collaboration
 * 📊 Advanced forecasting (Prophet)
-* 🧾 File support (PDF, Excel)
+* 📄 Multi-file support (PDF, Excel)
 
 ---
 
-## 📌 Author
+## 👨‍💻 Author
 
 **Vamsi Kumar Reddy**
-AI Engineer | Machine Learning Enthusiast
+AI / ML Engineer
 
 ---
 
-⭐ If you like this project, give it a star!
+⭐ If you found this useful, give it a star!
